@@ -1,0 +1,6 @@
+services:
+  bookinfo:
+    build: .
+    image: ghcr.io/l3luescreen/bookinfo-bookinfo:dev
+    ports:
+      - "8081:9080"

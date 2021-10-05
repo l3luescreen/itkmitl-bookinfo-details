@@ -17,3 +17,9 @@ docker build -t details .
 ```bash
 docker run -d -p 8081:9080 details
 ```
+
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
