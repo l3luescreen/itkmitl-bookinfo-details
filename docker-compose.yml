@@ -1,6 +1,6 @@
 services:
   bookinfo:
     build: .
-    image: ghcr.io/l3luescreen/bookinfo-bookinfo:dev
+    image: ghcr.io/l3luescreen/itkmitl-bookinfo-details:dev
     ports:
       - "8081:9080"
